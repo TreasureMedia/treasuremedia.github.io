@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import img1 from '../../../public/images/about_1.jpg'
-import img2 from '../../../public/images/about_2.jpg'
+import img1 from '../../assets/images/about_1.JPG'
+import img2 from '../../assets/images/about_2.JPG'
 
 const Info = () => {
   return <>

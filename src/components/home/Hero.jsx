@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../../public/logo_main.png'
+import img1 from '../../assets/logo_main.png'
 import {easeIn, motion} from 'framer-motion'
 const bg = "https://cdn1.img.sputniknews.africa/img/07e8/04/1b/1066258377_350:0:3081:2048_1920x0_80_0_0_1e8b09b00e4e3c706f7014d09a57bf25.jpg"
 

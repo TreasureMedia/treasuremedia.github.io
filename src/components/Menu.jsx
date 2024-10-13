@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../public/logo_main.png'
+import logo from '../assets/logo_main.png'
 import {motion} from 'framer-motion'
 
 const Menu = () => {
