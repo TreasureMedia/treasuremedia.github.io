@@ -6,12 +6,6 @@ import SearchBar from './SearchBar'
 
 function Articles() {
 
-  // const apiKey = "AIzaSyBB4Kuv0wYarmOz1EdFOFwH7nr9Mg7VrjI";
-  // const blogId = "5594908279712012107";
-  // fetch(
-  //   `https://www.googleapis.com/blogger/v3/blogs/${blogId}`
-  // ).then(res => console.log(res));
-
   
 
 
