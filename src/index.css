@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #ffebdd;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+textarea {
+  background: none;
+  padding: 0;
+}
+
+@layer components {
+  /* Home page */
+  .home-button {
+    @apply text-white bg-background w-[30%] font-[600] p-3 rounded-xl mt-6 drop-shadow-lg
+  }
+
+  .blog-article {
+    @apply h-[100%] w-[100%] bg-[#2a9d49] rounded-2xl
+  }
+
+  .social-media {
+    @apply bg-   text-white rounded-full px-5 py-2
+  }
+
+  /* About Section */
+  .about-text {
+    @apply text-[17px] font-[400] leading-none
+  }
+  .about-section {
+    @apply about-text flex justify-around items-center px-24 
+  }
+  .about-header {
+    @apply text-secondary font-[800] text-[50px] mb-10
+  }
+
+  /* Misc */
+  .chevron {
+    @apply w-[50px] text-white rounded-full bg-green-950/80
+  }
+
+  .background-gradient {
+    @apply bg-gradient-to-t from-bg to-bg2
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}

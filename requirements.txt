@@ -1,0 +1,25 @@
+- add photos for who we are
+- put video for what we do
+- change content fo what we do paragraph
+- Place feature articles
+- put links and finalize footer 
+
+- place the blogs with photos
+- make blogger site and link posts to my ass crack blog
+
+- change sa sport exhibition to coming soon and picture
+- add feature page for the struggle exhibition
+- feature + pictures + qr code for each individual character
+
+
+- ADD REEM'S WEBSITE AND CREDIT AT THE BOLDED VERY BOTTOM OF THE FUCKING FOOTER'
+- fix copyright information and add links 
+- add social media and rearrange 
+
+- fix icons by downloading svgs
+- build website for shipment
+
+-- Functionality:
+    - Contact form
+    - add website preloader
+    - add scroll animations
