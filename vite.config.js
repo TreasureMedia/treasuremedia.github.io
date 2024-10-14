@@ -8,11 +8,11 @@ const outDir = resolve(__dirname, 'dist')
 // https://vitejs.dev/config/
 export default defineConfig({
   assetsInclude: ['**/*.JPG', '**/*.CR2'],
-  root,
+  root: "src",
   plugins: [react()],
   base: '/Site/',
   build: {
-    outDir,
+    outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
