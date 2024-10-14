@@ -10,7 +10,7 @@ export default defineConfig({
   assetsInclude: ['**/*.JPG', '**/*.CR2'],
   root: "src",
   plugins: [react()],
-  base: '/Site/',
+  base: '/',
   build: {
     outDir: '../dist',
     emptyOutDir: true,
