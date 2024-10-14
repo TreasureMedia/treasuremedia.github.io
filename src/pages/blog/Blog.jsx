@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '/index.css'
-import Menu from '/components/Menu'
-import Articles from '/components/blog/Articles'
-import Footer from '/components/Footer'
-import SearchBar from '/components/blog/SearchBar'
+import '../../index.css'
+import Articles from '../../components/blog/Articles'
+import Footer from '../../components/Footer'
+import SearchBar from '../../components/blog/SearchBar'
 import PageNumber from '../../components/blog/PageNumber'
+import Menu from '../../components/Menu'
 
 createRoot(document.getElementById('blog')).render(
   <StrictMode>
