@@ -15,23 +15,23 @@ const Menu = () => {
               Home
             </motion.p>
           </a>
-          <a href='/src/pages/about/index.html'>
+          <a href='/pages/about/index.html'>
           <motion.p
             whileHover = {{
               scale:1.15
             }}>About</motion.p>
           </a>
-          <a href='/src/pages/blog/index.html'>
+          <a href='/pages/blog/index.html'>
           <motion.p
             whileHover = {{
               scale:1.15
             }}>Blog</motion.p></a>
-          <a href='/src/pages/events/index.html'>
+          <a href='/pages/events/index.html'>
           <motion.p
             whileHover = {{
               scale:1.15
             }}>Events</motion.p></a>
-          <a href='/src/pages/contact/index.html'>
+          <a href='/pages/contact/index.html'>
           <motion.p
             whileHover = {{
               scale:1.15
