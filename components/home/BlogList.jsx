@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../../assets/images/zelda.jpg'
 import { motion } from 'framer-motion'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 
@@ -6,7 +7,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 function Picture() {
   return <>
     <div className='w-[100%] h-[70vh] bg-green-900 lg:flex text-white leading-none flex items-center justify-center '>
-      <div className='w-[50%] h-[100%] bg-yellow-400 bg-center bg-cover ' style={{backgroundImage:"url(../../assets/images/zelda.jpg)"}}>
+      <div className='w-[50%] h-[100%] bg-yellow-400 bg-center bg-cover ' style={{backgroundImage:`url(${img1})`}}>
 
       </div>
 

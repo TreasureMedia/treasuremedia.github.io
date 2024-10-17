@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import img1 from "../../assets/images/team.jpg"
 
 
 const Gallery = () => {
@@ -26,7 +27,7 @@ const Gallery = () => {
       transition={{ease: "easeOut", 
         duration:0.5,
       }}
-      className='bg-[#3c5e19] w-[100%] h-[40%] lg:h-[70%] lg:mx-10 lg:w-[60%] rounded-[40px] bg-cover bg-no-repeat bg-center' style={{backgroundImage: "url(../../assets/images/team.jpg)"}}>
+      className='bg-[#3c5e19] w-[100%] h-[40%] lg:h-[70%] lg:mx-10 lg:w-[60%] rounded-[40px] bg-cover bg-no-repeat bg-center' style={{backgroundImage: `url(${img1})`}}>
         
       </motion.div>
     </div>
