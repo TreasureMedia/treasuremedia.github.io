@@ -2,18 +2,22 @@ import React from 'react'
 import { useState } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import { RxDot, RxDotFilled } from 'react-icons/rx'
+import img1 from '../../assets/images/1.jpg'
+import img2 from '../../assets/images/2.jpg'
+import img3 from '../../assets/images/3.jpg'
+
 
 
 const Carousel = () => {
   const slides = [
     {
-      url: '../../assets/images/1.jpg'
+      url: img1
     },
     {
-      url: '../../assets/images/2.jpg'
+      url: img2
     },
     {
-      url: '../../assets/images/3.jpg'
+      url: img3
     }
   ]
 
@@ -37,7 +41,7 @@ const Carousel = () => {
 
   return <>
     <div className='w-[100%] h-[50%] lg:h-[100%] bg-cover bg-center bg-no-repeat rounded-2xl drop-shadow-2xl duration-500 group relative'
-    style={{backgroundImage:`url("${slides[currentIndex].url}")`}}>
+    style={{backgroundImage:`url(${slides[currentIndex].url})`}}>
       
       <div className='opacity-70 duration-200 group-hover:opacity-100 group-hover:duration-200 absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 cursor-pointer'>
         <button><ChevronLeftIcon onClick={prevSlide} className='chevron' /></button>
