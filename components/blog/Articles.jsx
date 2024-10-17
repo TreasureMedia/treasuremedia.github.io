@@ -3,6 +3,7 @@ import Featured from './Featured'
 import Article from './Article'
 import articles from '../../pages/blog/list/posts.json'
 import SearchBar from './SearchBar'
+import posts from '../../pages/blog/list/pictures/index'
 
 function Articles() {
 
@@ -24,6 +25,8 @@ function Articles() {
             url= {item.url}
             className=""/>
           })}
+
+          <img src={posts.img} alt="" />
             
             
         </div>
