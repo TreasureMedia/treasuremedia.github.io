@@ -16,7 +16,7 @@ const Hero = () => {
               delay:0.3,
               duration:0.3
             }}
-    className='w-[100%] h-[90vh] bg-[#0b2017] flex justify-center items-center relative overflow-hidden  bg-cover bg-no-repeat'
+    className='w-[100%] h-[90vh] bg-[#0b2017] flex justify-center items-center relative overflow-hidden bg-cover bg-no-repeat'
     style={{backgroundImage: `url(${bg})`}}>
 
         <div
@@ -37,12 +37,12 @@ const Hero = () => {
                 delay:0.1,
                 ease: "anticipate"
               }}
-          className='text-white flex flex-col items-center font-[600] text-5xl mx-[13%]'>
-            <div className=' max-sm:w-[100%] z-[1] flex items-center  flex-col max-sm:text-[30px] bg-background/50 p-14 rounded-2xl'>
+          className='text-white flex flex-col items-center font-[600] text-5xl mx-[5%] md:mx-[10%] lg:mx-[13%]'>
+            <div className=' w-[100%] z-[1] flex items-center flex-col max-sm:text-[30px] bg-background/50 p-8 lg:p-14 rounded-2xl'>
               <img src={img1}  width='550px' />
-              <div className='mt-5 font-[400] flex flex-col items-center text-center text-[20px] w-[50%]'>
-                <h1 className='font-[600] text-[30px] leading-[50px]'>Welcome!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+              <div className='mt-5 font-[400] flex flex-col items-center text-center text-[13px] lg:text-[20px] lg:w-[70%]'>
+                <h1 className='font-[600] text-[20px] lg:text-[30px] leading-[50px]'>Welcome!</h1>
+                <p>We invite you to explore our rich archive of articles, interviews, and features that have touched the lives of countless individuals in Cape Town and beyond. From inspiring stories of resilience and empowerment to practical advice on health, wellness, and lifestyle, Treasure Media offers a diverse range of content that is both informative and engaging.</p>
               </div>
             </div>
           </motion.div>

@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +34,7 @@ textarea {
 @layer components {
   /* Home page */
   .home-button {
-    @apply text-white bg-background w-[30%] font-[600] p-3 rounded-xl mt-6 drop-shadow-lg
+    @apply text-white bg-background w-[50%] leading-none lg:w-[30%] font-[600] p-3 rounded-xl mt-6 drop-shadow-lg
   }
 
   .blog-article {
@@ -54,11 +58,15 @@ textarea {
 
   /* Misc */
   .chevron {
-    @apply w-[50px] text-white rounded-full bg-green-950/80
+    @apply w-[30px] lg:w-[50px] text-white rounded-full bg-green-950/80
   }
 
   .background-gradient {
     @apply bg-gradient-to-t from-bg to-bg2
+  }
+
+  .footer-link {
+    @apply cursor-pointer
   }
 }
 
