@@ -9,8 +9,7 @@ function Content() {
   return <>
     <div className='w-[100%] h-[67vh] flex items-center justify-between flex-col'>
         <EventTemplate
-        link="/pages/events/struggle_veterans_exhibition.html"
-        title='SA Struggle Veterans Exhibition'
+        title='Coming soon...'
         img='https://www.apartheidmuseum.org/uploads/_imager/files/7194/apartheid_metal_0a3455fa8f579c24474e4b32da322bf3.webp'/>
 
         <EventTemplate 

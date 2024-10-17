@@ -3,8 +3,6 @@ import { createRoot } from 'react-dom/client'
 import '../../index.css'
 import Articles from '../../components/blog/Articles'
 import Footer from '../../components/Footer'
-import SearchBar from '../../components/blog/SearchBar'
-import PageNumber from '../../components/blog/PageNumber'
 import Menu from '../../components/Menu'
 
 createRoot(document.getElementById('blog')).render(
@@ -13,7 +11,6 @@ createRoot(document.getElementById('blog')).render(
     {/* from-70% to-[#ffae45] */}
     <div className='bg-gradient-to-b from-[#ffedd5]  pt-[4vh] flex flex-col items-center'>
       <Articles />
-      <PageNumber />
     </div>
     <Footer />
   </StrictMode>,
