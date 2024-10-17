@@ -15,7 +15,7 @@ function Articles() {
 
         {/* Articles */}
         <div className='w-[98%] pb-10 grid grid-cols-4 gap-y-10 justify-items-center place-items-start'>
-            
+        <img src={posts.img} alt="" />
           {articles.map((item, index) => {
             return <Article img={`${item.img}`}
             title={`${item.title}`}
@@ -26,7 +26,7 @@ function Articles() {
             className=""/>
           })}
 
-          <img src={posts.img} alt="" />
+      
             
             
         </div>
